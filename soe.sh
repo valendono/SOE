@@ -4,6 +4,7 @@
 #COLOR1=black
 #setterm -term linux -back $COLOR -fore white -clear
 
+
 until [[ $password == "SOE" ]]; do
 read -p "Please type SOE :" password
 done
